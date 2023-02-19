@@ -41,12 +41,16 @@
                                 <div class="card-body text-center">
                                     <div class="titleDescription">
                                         <div>Triangle</div>
-                                        <div class="formula">Area (A) = 0.5 × b × h</div>
+                                        <div class="formula">Area (A) = <span id="triangleGivenValue"> 0.5</span> × b ×
+                                            h </div>
                                     </div>
                                     <div class="inputSection">
-                                        <input type="tel" placeholder="b">
+                                        <input id="triangleB" type="tel" placeholder="b">
+                                        <span>cm</span>
+                                        <input id="triangleH" type="tel" placeholder="h">
+                                        <span>cm</span>
                                     </div>
-                                    <div class="calculateBtn"> <button>Calculate</button></div>
+                                    <div class="calculateBtn"> <button id="triangleCalculate">Calculate</button></div>
                                 </div>
                             </div>
                         </div>
@@ -64,7 +68,8 @@
                                         <input type="tel" placeholder="l">
                                         <span>cm</span>
                                     </div>
-                                    <div class="calculateBtn"> <button>Calculate</button></div>
+                                    <div class="calculateBtn"> <button id="rectangleCalculation">Calculate</button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -150,37 +155,38 @@
                         <div class="triangle">
                             <div class="tableRow">1</div>
                             <div>Triangle</div>
-                            <div class="tableRow">12<span>cm</span><sup>2</sup></div>
+                            <div class="tableRow"> <span id="triangleFinalResult"> 00</span> <span>cm</span><sup>2</sup>
+                            </div>
                             <div class="tableRow"> <span class="convertBtn">Convert to m<sup>2</sup> </span> </div>
                         </div>
                         <div class="triangle">
                             <div class="tableRow">2</div>
                             <div>Rectangle</div>
-                            <div class="tableRow">12<span>cm</span><sup>2</sup></div>
+                            <div class="tableRow"> <span>00</span> <span>cm</span><sup>2</sup></div>
                             <div class="tableRow"> <span class="convertBtn">Convert to m<sup>2</sup> </span> </div>
                         </div>
                         <div class="triangle">
                             <div class="tableRow">3</div>
                             <div>Parallelogram</div>
-                            <div class="tableRow">12<span>cm</span><sup>2</sup></div>
+                            <div class="tableRow"> <span>00</span> <span>cm</span><sup>2</sup></div>
                             <div class="tableRow"> <span class="convertBtn">Convert to m<sup>2</sup> </span> </div>
                         </div>
                         <div class="triangle">
                             <div class="tableRow">4</div>
                             <div>Rhombus</div>
-                            <div class="tableRow">12<span>cm</span><sup>2</sup></div>
+                            <div class="tableRow"> <span>00</span> <span>cm</span><sup>2</sup></div>
                             <div class="tableRow"> <span class="convertBtn">Convert to m<sup>2</sup> </span> </div>
                         </div>
                         <div class="triangle">
                             <div class="tableRow">5</div>
                             <div>Pentagon</div>
-                            <div class="tableRow">12<span>cm</span><sup>2</sup></div>
+                            <div class="tableRow"> <span>00</span> <span>cm</span><sup>2</sup></div>
                             <div class="tableRow"> <span class="convertBtn">Convert to m<sup>2</sup> </span> </div>
                         </div>
                         <div class="triangle">
                             <div class="tableRow">6</div>
                             <div>Ellipse</div>
-                            <div class="tableRow">12<span>cm</span><sup>2</sup></div>
+                            <div class="tableRow"> <span>00</span> <span>cm</span><sup>2</sup></div>
                             <div class="tableRow"> <span class="convertBtn">Convert to m<sup>2</sup> </span> </div>
                         </div>
                     </div>
