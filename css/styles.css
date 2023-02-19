@@ -2,6 +2,8 @@
     --light-blue-color: rgba(16, 144, 216, 0.1);
     --gray-text-color: rgba(17, 17, 17, 0.6);
     --blue-color: rgb(16, 144, 216);
+    --grid-border-color: rgba(17, 17, 17, 0.1);
+    --blue-color: #1090D8;
 }
 
 * {
@@ -28,4 +30,73 @@
 
 .btn:hover {
     color: white;
+}
+
+.leftSection {
+    width: 75%;
+}
+
+.rightSection {
+    width: 25%;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+}
+
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid var(--grid-border-color);
+    width: 283px;
+    height: 386px;
+    font-size: 30px;
+    text-align: center;
+    margin: 10px;
+}
+
+.inputSection {
+    display: flex;
+    justify-content: center;
+
+}
+
+.inputSection input {
+    width: 95px;
+    height: 28px;
+    padding: 0 5px;
+
+}
+
+.titleDescription {
+    font-size: 22px;
+    margin: 5px auto 10px;
+}
+
+.formula {
+    font-size: 16px;
+}
+
+.inputSection {
+    display: flex;
+    column-gap: 5px;
+    font-size: 16px;
+}
+
+.calculateBtn button {
+    width: 100%;
+    height: 35px;
+    border: none;
+    font-size: 20px;
+    line-height: 35px;
+    background-color: var(--blue-color);
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.img {
+    width: 243px;
+    height: 194px;
 }
