@@ -100,3 +100,40 @@
     width: 243px;
     height: 194px;
 }
+
+.triangle {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.tableRow {}
+
+.button {
+    height: 35px;
+    border: none;
+    font-size: 14px;
+    color: white;
+    line-height: 14px;
+    background-color: var(--blue-color);
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.tableBody {
+    width: 100%;
+    margin: 15px auto auto auto;
+}
+
+.convertBtn {
+    background-color: var(--blue-color);
+    padding: 5px 5px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.triangle {
+    margin-bottom: 20px;
+}
