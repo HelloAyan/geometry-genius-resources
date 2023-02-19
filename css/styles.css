@@ -1,0 +1,31 @@
+:root {
+    --light-blue-color: rgba(16, 144, 216, 0.1);
+    --gray-text-color: rgba(17, 17, 17, 0.6);
+    --blue-color: rgb(16, 144, 216);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color: var(--light-blue-color);
+}
+
+.title {
+    font-weight: bold;
+}
+
+.subTitle {
+    color: var(--gray-text-color);
+}
+
+.btn {
+    color: white;
+}
+
+.btn:hover {
+    color: white;
+}
